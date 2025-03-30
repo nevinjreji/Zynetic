@@ -20,10 +20,10 @@ const SupportUs = () => {
   return (
     <div className="support">
       <div className="support-content">
-        <h1>Support SkyCast</h1>
+        <h1>Support SkyMist</h1>
         
         <p>
-          Your support helps us maintain and improve SkyCast, ensuring we can continue 
+          Your support helps us maintain and improve SkyMist, ensuring we can continue 
           to provide accurate weather updates and new features for users worldwide.
         </p>
         
@@ -33,7 +33,7 @@ const SupportUs = () => {
             <li><strong>Server Costs:</strong> Help us maintain reliable infrastructure</li>
             <li><strong>Data Access:</strong> Support our access to premium weather data</li>
             <li><strong>New Features:</strong> Enable development of enhanced capabilities</li>
-            <li><strong>Ad-Free Experience:</strong> Keep SkyCast clean and uncluttered</li>
+            <li><strong>Ad-Free Experience:</strong> Keep SkyMist clean and uncluttered</li>
           </ul>
         </div>
         
@@ -56,7 +56,7 @@ const SupportUs = () => {
         
         <div className="support-message">
           <p>
-            Thank you for being part of the SkyCast community. Your support 
+            Thank you for being part of the SkyMist community. Your support 
             allows us to continue our mission of providing reliable weather information to everyone.
           </p>
         </div>

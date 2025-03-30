@@ -7,9 +7,9 @@ const About = () => {
         <h1>About Us</h1>
         
         <p>
-          <strong>SkyCast</strong> is your ultimate weather companion, offering real-time and accurate weather updates 
+          <strong>SkyMist</strong> is your ultimate weather companion, offering real-time and accurate weather updates 
           in a sleek, user-friendly interface. Whether you're planning a trip, commuting, or just checking the forecast, 
-          <strong> SkyCast</strong> provides instant temperature updates, humidity levels, wind speed, and more.
+          <strong> SkyMist</strong> provides instant temperature updates, humidity levels, wind speed, and more.
         </p>
         
         <h2>What We Offer:</h2>
@@ -21,7 +21,7 @@ const About = () => {
         </ul>
         
         <p>
-          Stay ahead of the weather with <strong>SkyCast</strong>—your reliable weather dashboard!
+          Stay ahead of the weather with <strong>SkyMist</strong>—your reliable weather dashboard!
         </p>
       </div>
     </div>
