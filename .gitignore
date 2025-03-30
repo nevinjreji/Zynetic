@@ -1,0 +1,12 @@
+# Ignore environment variables
+BACKEND/.env
+
+# Node modules
+node_modules/
+
+# Build files
+FRONTEND/build/
+BACKEND/dist/
+
+# Logs
+*.log
