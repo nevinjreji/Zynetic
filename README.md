@@ -50,7 +50,7 @@ npm start
 Start Frontend
 
 cd ../FRONTEND
-npm start
+npm run dev
 
 🌩️ API Integration Details
 
@@ -58,9 +58,10 @@ API Used: OpenWeather API
 
 Endpoint: /weather?city={city_name}
 
-Rate Limits: Based on OpenWeather API plan
+Rate Limits: Based on OpenWeather API plan || In this project we are using "Current weather data API by OpenWeather" which provides 60 API calls/minute
+1,000,000 calls/month
 
-Security: API key is stored in .env and not exposed publicly.
+ Security: API key is stored in .env and not exposed publicly.
 
 📜 License
 
