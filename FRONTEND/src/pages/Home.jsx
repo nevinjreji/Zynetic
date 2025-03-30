@@ -45,7 +45,7 @@ const HomePage = () => {
     setWeather(null);
     
     try {
-      const response = await axios.get(`http://localhost:5000/weather?city=${cityToFetch}`);
+      const response = await axios.get(`https://zynetic-9e1u.onrender.com/weather?city=${cityToFetch}`)
       setTimeout(() => {
         setWeather(response.data);
         setLoading(false);
@@ -65,7 +65,8 @@ const HomePage = () => {
     
     setRefreshing(true);
     try {
-      const response = await axios.get(`http://localhost:5000/weather?city=${weather.city}`);
+      const response = await axios.get(`https://zynetic-9e1u.onrender.com/weather?city=${weather.city}`)
+
       setTimeout(() => {
         setWeather(response.data);
         setRefreshing(false);
