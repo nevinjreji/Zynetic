@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 
+//support us page with razorpay integration
 const SupportUs = () => {
   useEffect(() => {
     const script = document.createElement("script");

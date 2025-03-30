@@ -20,11 +20,13 @@ app.get('/weather', async (req, res) => {
     try {
         const { city } = req.query;
         if (!city) return res.status(400).json({ error: 'City is required' });
-
+        
+        //API CALL
         const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${API_KEY}&units=metric`;
         const response = await axios.get(url);
         const data = response.data;
-
+        
+        //Weather details for display
         const weatherData = {
             city: data.name,
             temperature: data.main.temp,

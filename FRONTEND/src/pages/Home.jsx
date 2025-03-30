@@ -10,6 +10,7 @@ const HomePage = () => {
   const [refreshing, setRefreshing] = useState(false);
   const [searchHistory, setSearchHistory] = useState([]);
 
+  //Search History
   useEffect(() => {
     const savedHistory = localStorage.getItem('weatherSearchHistory');
     if (savedHistory) {
@@ -37,7 +38,8 @@ const HomePage = () => {
     const newHistory = searchHistory.filter(item => item !== cityToRemove);
     setSearchHistory(newHistory);
   };
-
+  
+  //Main API call
   const fetchWeather = async (cityToFetch = city) => {
     if (!cityToFetch.trim()) return;
     setLoading(true);
@@ -59,7 +61,8 @@ const HomePage = () => {
       setLoading(false);
     }
   };
-
+  
+  //Refresh handling
   const handleRefresh = async () => {
     if (!weather) return;
     
