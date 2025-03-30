@@ -9,6 +9,9 @@ const API_KEY = process.env.OPENWEATHER_API_KEY;
 
 app.use(cors());
 app.use(express.json());
+app.get("/", (req, res) => {
+  res.send("Backend is running!");
+});
 
 app.get('/weather', async (req, res) => {
     try {
