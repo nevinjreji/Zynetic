@@ -7,8 +7,11 @@ const app = express();
 const PORT = process.env.PORT || 5000;
 const API_KEY = process.env.OPENWEATHER_API_KEY;
 
-app.use(cors());
+// Allow CORS for Netlify
+app.use(cors({ origin: "https://skymist.netlify.app" }));
+
 app.use(express.json());
+
 app.get("/", (req, res) => {
   res.send("Backend is running!");
 });
