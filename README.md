@@ -4,6 +4,9 @@ Zynetic - Weather Dashboard
 
 skymist.netlify.app
 
+// Website may shutdown as backend is hosted in render after 15 minutes of inactivity , will restart again when a new request is made
+
+
 🚀 Tech Stack
 
 Frontend: React.js, Tailwind CSS
@@ -54,7 +57,7 @@ npm run dev
 
 🌩️ API Integration Details
 
-API Used: OpenWeather API
+API Used: Free OpenWeather API
 
 Endpoint: /weather?city={city_name}
 
@@ -67,6 +70,6 @@ Rate Limits: Based on OpenWeather API plan || In this project we are using "Curr
 
 This project is open-source and available under the MIT License.
 
-✅ Developed by Your Name
+✅ Developed by
 
 Nevin J Reji
